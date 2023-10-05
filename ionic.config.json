@@ -1,0 +1,7 @@
+{
+  "name": "muestraDeDatos",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
