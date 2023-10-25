@@ -25,3 +25,43 @@
 #container a {
   text-decoration: none;
 }
+
+@media screen and (min-width: 450px){
+  ion-content {
+    --background: rgba(158, 236, 250, 0.753);
+  }
+  
+}
+
+@media screen and (max-width: 450px){
+  ion-content {
+    --background: rgba(93, 245, 93, 0.753);
+  }
+  
+}
+
+@media screen and (max-width: 400px) {
+  ion-content {
+    --background: rgba(247, 119, 252, 0.753);
+  }
+  
+}
+
+@media (orientation: portrait){
+  .botonComprobar{
+    --color: blue;
+    --background: #93e9be;
+    --border-radius: 0;
+    --border-color: #000;
+    --border-style: solid;
+  }
+}
+@media (orientation: landscape){
+  .botonComprobar{
+    --color: rgb(255, 0, 0);
+    --background: #e9e393;
+    --border-radius: 0;
+    --border-color: #000;
+    --border-style: solid;
+  }
+}

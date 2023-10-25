@@ -16,7 +16,7 @@
   <div id="container">
     
     <ion-input label="Introduzca un color: " [(ngModel)]="colorUsuario" type="string" min="1" max="100" placeholder="Escriba un color"></ion-input>
-    <ion-button style="max-width: 300px" fill="outline" *ngIf="esCorrecto == false" (click)="comprobarColor()"><ion-icon slot="end" name="chevron-forward-outline"></ion-icon>Comprobar</ion-button>
+    <ion-button class="botonComprobar" style="max-width: 300px" fill="outline "*ngIf="esCorrecto == false" (click)="comprobarColor()"><ion-icon slot="end" name="chevron-forward-outline"></ion-icon>Comprobar</ion-button>
     <ion-button style="max-width: 300px" fill="outline" *ngIf="esCorrecto == true" (click)="reiniciar()"><ion-icon slot="start" name="refresh-outline"></ion-icon>Reiniciar</ion-button>
     <h5>{{txtMensaje}}</h5>
   </div>
